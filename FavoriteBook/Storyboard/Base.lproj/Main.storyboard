@@ -185,6 +185,13 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kqb-OH-Sgr" id="Sib-v1-298">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75y-Ov-o2g">
+                                                    <rect key="frame" x="164" y="7" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                </button>
+                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -199,6 +206,7 @@
                         <outlet property="authorTxtField" destination="1hy-OD-glt" id="TiP-Ot-983"/>
                         <outlet property="genreTxtField" destination="sHw-jp-KBs" id="bHo-Vx-pa1"/>
                         <outlet property="lenghtTxtField" destination="AWY-Tn-br4" id="JNW-dh-jKQ"/>
+                        <outlet property="saveTheWorld" destination="75y-Ov-o2g" id="GQU-E8-zVl"/>
                         <outlet property="titleTxtField" destination="rim-gC-Sxq" id="AxR-qO-lwi"/>
                     </connections>
                 </tableViewController>
