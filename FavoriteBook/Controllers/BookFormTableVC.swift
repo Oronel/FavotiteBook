@@ -9,10 +9,12 @@ import UIKit
 
 class BookFormTableVC: UITableViewController {
 
+    var book: Book?
+    
     @IBOutlet weak var titleTxtField: UITextField!
     @IBOutlet weak var authorTxtField: UITextField!
     @IBOutlet weak var genreTxtField: UITextField!
-    @IBOutlet weak var lenghtTxtField: UITextField!
+    @IBOutlet weak var lengthTxtField: UITextField!
     
     
     
@@ -30,6 +32,12 @@ class BookFormTableVC: UITableViewController {
     
     func updateView() {
         // will update the text fields
+        guard let book = book else{return}
+        
+        titleTxtField.text = book.title
+        authorTxtField.text = book.author
+        genreTxtField.text = book.genre
+        lengthTxtField.text = book.length
     }
     
     

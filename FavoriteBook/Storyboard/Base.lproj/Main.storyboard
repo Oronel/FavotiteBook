@@ -151,7 +151,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="lenght" id="z4g-kz-LFX">
+                            <tableViewSection headerTitle="length" id="z4g-kz-LFX">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ZLM-1w-gUB">
                                         <rect key="frame" x="0.0" y="355.5" width="375" height="44"/>
@@ -205,7 +205,7 @@
                     <connections>
                         <outlet property="authorTxtField" destination="1hy-OD-glt" id="TiP-Ot-983"/>
                         <outlet property="genreTxtField" destination="sHw-jp-KBs" id="bHo-Vx-pa1"/>
-                        <outlet property="lenghtTxtField" destination="AWY-Tn-br4" id="JNW-dh-jKQ"/>
+                        <outlet property="lengthTxtField" destination="AWY-Tn-br4" id="h9P-h5-QNL"/>
                         <outlet property="saveTheWorld" destination="75y-Ov-o2g" id="GQU-E8-zVl"/>
                         <outlet property="titleTxtField" destination="rim-gC-Sxq" id="AxR-qO-lwi"/>
                     </connections>
