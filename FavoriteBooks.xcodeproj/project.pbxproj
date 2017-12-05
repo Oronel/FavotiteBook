@@ -46,6 +46,7 @@
 			children = (
 				2C5E3E2F1E514D3400C02C5F /* BookFormViewController.swift */,
 				2C5E3E331E514EA700C02C5F /* BookTableViewController.swift */,
+				049813161FD6DB1800953B92 /* BookFormTableVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -92,7 +93,6 @@
 				049813151FD6D3B100953B92 /* Storyboard */,
 				2C5E3E201E514CC400C02C5F /* Assets.xcassets */,
 				2C5E3E251E514CC400C02C5F /* Info.plist */,
-				049813161FD6DB1800953B92 /* BookFormTableVC.swift */,
 			);
 			path = FavoriteBook;
 			sourceTree = "<group>";

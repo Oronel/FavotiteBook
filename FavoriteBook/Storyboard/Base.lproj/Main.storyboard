@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="1076" y="-69.715142428785612"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Book Form TableVC-->
         <scene sceneID="hor-f0-Tpu">
             <objects>
-                <tableViewController id="IpT-1s-WnJ" sceneMemberID="viewController">
+                <tableViewController id="IpT-1s-WnJ" customClass="BookFormTableVC" customModule="FavoriteBooks" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="l3c-2r-Tfr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -195,6 +195,12 @@
                             <outlet property="delegate" destination="IpT-1s-WnJ" id="d32-2V-W1G"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="authorTxtField" destination="1hy-OD-glt" id="TiP-Ot-983"/>
+                        <outlet property="genreTxtField" destination="sHw-jp-KBs" id="bHo-Vx-pa1"/>
+                        <outlet property="lenghtTxtField" destination="AWY-Tn-br4" id="JNW-dh-jKQ"/>
+                        <outlet property="titleTxtField" destination="rim-gC-Sxq" id="AxR-qO-lwi"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eLn-L4-jFE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
